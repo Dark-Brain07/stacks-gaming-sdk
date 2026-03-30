@@ -1,0 +1,38 @@
+{
+  "name": "@rajuice/stacks-gaming-sdk",
+  "version": "1.0.0",
+  "description": "Production-grade SDK for building blockchain games on Stacks. Wallet auth, NFT minting, on-chain scores, STX rewards, and Clarity contract interactions.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "dev": "tsc --watch",
+    "lint": "eslint src/"
+  },
+  "keywords": [
+    "stacks",
+    "blockchain",
+    "gaming",
+    "sdk",
+    "clarity",
+    "nft",
+    "stx",
+    "web3",
+    "chainhooks",
+    "hiro"
+  ],
+  "author": "Dark-Brain07",
+  "license": "MIT",
+  "dependencies": {
+    "@stacks/connect": "^7.0.0",
+    "@stacks/network": "^6.0.0",
+    "@stacks/transactions": "^6.0.0",
+    "@stacks/blockchain-api-client": "^7.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "vitest": "^1.0.0",
+    "eslint": "^8.50.0"
+  }
+}
