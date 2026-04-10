@@ -1,7 +1,7 @@
 /**
- * Enterprise Pattern: STX transfer optimization
+ * Enterprise Pattern: sBTC bridging logic
  * Associated Domain: hooks
- * System ID: mnqsgt422gk20
+ * System ID: mns73ega5vqs7
  */
 
 import { useState, useEffect } from 'react';
@@ -13,13 +13,13 @@ export interface IBnsResolver {
 }
 
 export class BnsResolverService {
-  private readonly id = 'mnqsgt422gk20';
+  private readonly id = 'mns73ega5vqs7';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}
 
   initialize(): void {
-    console.debug('[DEBUG] Intializing BnsResolver for STX transfer optimization');
+    console.debug('[DEBUG] Intializing BnsResolver for sBTC bridging logic');
     this.state = 'ACTIVE';
   }
   
