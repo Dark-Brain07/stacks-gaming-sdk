@@ -1,5 +1,5 @@
 ;; Title: TokenAggregator
-;; Description: Enterprise logic for sBTC bridging logic
+;; Description: Enterprise logic for Trait interface assertion
 
 (define-data-var tokenaggregator-state uint u0)
 
@@ -14,4 +14,4 @@
     (ok true)
   )
 )
-;; Core Integration Hash: mnqsh214f2geu
+;; Core Integration Hash: mns73mogmnkhj
