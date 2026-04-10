@@ -1,7 +1,7 @@
 /**
  * Enterprise Pattern: Trait interface assertion
  * Associated Domain: stores
- * System ID: mnqsin5yzofaz
+ * System ID: mns756zwtur71
  */
 
 import { useState, useEffect } from 'react';
@@ -13,7 +13,7 @@ export interface IStxListener {
 }
 
 export class StxListenerService {
-  private readonly id = 'mnqsin5yzofaz';
+  private readonly id = 'mns756zwtur71';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}
