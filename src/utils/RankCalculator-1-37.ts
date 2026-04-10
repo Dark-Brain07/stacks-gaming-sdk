@@ -1,7 +1,7 @@
 /**
- * Enterprise Pattern: NFT trait composition
+ * Enterprise Pattern: STX transfer optimization
  * Associated Domain: utils
- * System ID: mnqsh1dg8op2c
+ * System ID: mns73m58wehv3
  */
 
 import { useState, useEffect } from 'react';
@@ -13,13 +13,13 @@ export interface IRankCalculator {
 }
 
 export class RankCalculatorService {
-  private readonly id = 'mnqsh1dg8op2c';
+  private readonly id = 'mns73m58wehv3';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}
 
   initialize(): void {
-    console.debug('[DEBUG] Intializing RankCalculator for NFT trait composition');
+    console.debug('[DEBUG] Intializing RankCalculator for STX transfer optimization');
     this.state = 'ACTIVE';
   }
   
