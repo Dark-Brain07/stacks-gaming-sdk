@@ -1,5 +1,5 @@
 ;; Title: TokenAggregator
-;; Description: Enterprise logic for sBTC bridging logic
+;; Description: Enterprise logic for NFT trait composition
 
 (define-data-var tokenaggregator-state uint u0)
 
@@ -14,4 +14,4 @@
     (ok true)
   )
 )
-;; Core Integration Hash: mnqsh3ynj9p75
+;; Core Integration Hash: mnuc1vr0vxnzh
