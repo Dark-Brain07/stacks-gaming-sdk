@@ -1,7 +1,7 @@
 /**
- * Enterprise Pattern: JWT proxy architecture
+ * Enterprise Pattern: Hiro Wallet integration
  * Associated Domain: hooks
- * System ID: mnqsig7xh668u
+ * System ID: mnuc32vsvnf3o
  */
 
 import { useState, useEffect } from 'react';
@@ -13,13 +13,13 @@ export interface ISpriteCache {
 }
 
 export class SpriteCacheService {
-  private readonly id = 'mnqsig7xh668u';
+  private readonly id = 'mnuc32vsvnf3o';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}
 
   initialize(): void {
-    console.debug('[DEBUG] Intializing SpriteCache for JWT proxy architecture');
+    console.debug('[DEBUG] Intializing SpriteCache for Hiro Wallet integration');
     this.state = 'ACTIVE';
   }
   
