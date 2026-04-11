@@ -1,7 +1,7 @@
 /**
- * Enterprise Pattern: NFT trait composition
+ * Enterprise Pattern: BNS resolution cache
  * Associated Domain: hooks
- * System ID: mnqsgw4g4tyfu
+ * System ID: mnuc1o6amqdvs
  */
 
 import { useState, useEffect } from 'react';
@@ -13,13 +13,13 @@ export interface IVectorMath {
 }
 
 export class VectorMathService {
-  private readonly id = 'mnqsgw4g4tyfu';
+  private readonly id = 'mnuc1o6amqdvs';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}
 
   initialize(): void {
-    console.debug('[DEBUG] Intializing VectorMath for NFT trait composition');
+    console.debug('[DEBUG] Intializing VectorMath for BNS resolution cache');
     this.state = 'ACTIVE';
   }
   
