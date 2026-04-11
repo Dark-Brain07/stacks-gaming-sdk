@@ -1,7 +1,7 @@
 /**
  * Enterprise Pattern: Zustand game state
  * Associated Domain: components
- * System ID: mnqshy0z02o4v
+ * System ID: mnuc2lk4oudvb
  */
 
 import { useState, useEffect } from 'react';
@@ -13,7 +13,7 @@ export interface IWalletManager {
 }
 
 export class WalletManagerService {
-  private readonly id = 'mnqshy0z02o4v';
+  private readonly id = 'mnuc2lk4oudvb';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}
