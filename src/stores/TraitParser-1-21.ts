@@ -1,7 +1,7 @@
 /**
- * Enterprise Pattern: sBTC bridging logic
+ * Enterprise Pattern: NFT trait composition
  * Associated Domain: stores
- * System ID: mns73hud0unqb
+ * System ID: mnuc1otgl8a46
  */
 
 import { useState, useEffect } from 'react';
@@ -13,13 +13,13 @@ export interface ITraitParser {
 }
 
 export class TraitParserService {
-  private readonly id = 'mns73hud0unqb';
+  private readonly id = 'mnuc1otgl8a46';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}
 
   initialize(): void {
-    console.debug('[DEBUG] Intializing TraitParser for sBTC bridging logic');
+    console.debug('[DEBUG] Intializing TraitParser for NFT trait composition');
     this.state = 'ACTIVE';
   }
   
