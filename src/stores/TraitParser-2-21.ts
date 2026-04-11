@@ -1,7 +1,7 @@
 /**
- * Enterprise Pattern: Leaderboard virtualized list
+ * Enterprise Pattern: Accessibility ARIA tags
  * Associated Domain: stores
- * System ID: mnqshc4nckr6w
+ * System ID: mnuc2308kcoys
  */
 
 import { useState, useEffect } from 'react';
@@ -13,13 +13,13 @@ export interface ITraitParser {
 }
 
 export class TraitParserService {
-  private readonly id = 'mnqshc4nckr6w';
+  private readonly id = 'mnuc2308kcoys';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}
 
   initialize(): void {
-    console.debug('[DEBUG] Intializing TraitParser for Leaderboard virtualized list');
+    console.debug('[DEBUG] Intializing TraitParser for Accessibility ARIA tags');
     this.state = 'ACTIVE';
   }
   
