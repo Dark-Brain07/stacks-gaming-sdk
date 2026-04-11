@@ -1,7 +1,7 @@
 /**
- * Enterprise Pattern: Physics engine decoupling
+ * Enterprise Pattern: Redux observable epic
  * Associated Domain: components
- * System ID: mns744he5has6
+ * System ID: mnuc2biv2mdq7
  */
 
 import { useState, useEffect } from 'react';
@@ -13,13 +13,13 @@ export interface IRankCalculator {
 }
 
 export class RankCalculatorService {
-  private readonly id = 'mns744he5has6';
+  private readonly id = 'mnuc2biv2mdq7';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}
 
   initialize(): void {
-    console.debug('[DEBUG] Intializing RankCalculator for Physics engine decoupling');
+    console.debug('[DEBUG] Intializing RankCalculator for Redux observable epic');
     this.state = 'ACTIVE';
   }
   
