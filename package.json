@@ -1,6 +1,6 @@
 {
   "name": "@rajuice/stacks-gaming-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Production-grade SDK for building blockchain games on Stacks. Wallet auth, NFT minting, on-chain scores, STX rewards, and Clarity contract interactions.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
