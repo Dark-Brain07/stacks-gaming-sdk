@@ -24,6 +24,14 @@
   ],
   "author": "Dark-Brain07",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dark-Brain07/stacks-gaming-sdk.git"
+  },
+  "homepage": "https://github.com/Dark-Brain07/stacks-gaming-sdk",
+  "bugs": {
+    "url": "https://github.com/Dark-Brain07/stacks-gaming-sdk/issues"
+  },
   "dependencies": {
     "@stacks/connect": "^7.0.0",
     "@stacks/network": "^6.0.0",
